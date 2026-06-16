@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-const NODE_W = 220; // must match the width used in NodeCard
+const NODE_W = 220; 
 
 export default function Connectors({ nodes, selectedId }) {
   const paths = useMemo(() => {
